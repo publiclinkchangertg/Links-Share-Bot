@@ -34,7 +34,7 @@ START_MSG = os.environ.get("START_MESSAGE", "<b>ɪ ᴀᴍ ᴀ ʜɪɢʜ-ꜱᴘᴇ
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/FlyTonOwner>𝐅𝐥𝐲𝐓𝐨𝐧 𝐎𝐰𝐧𝐞𝐫</a>\n» Our Community: <a href=https://t.me/Ss_GodX Network</a>\n» Anime Channel: <a href=https://t.me/animes_cruise>Anime Cruise</a>\n» Ongoing Anime: <a href=https://t.me/flyton_anime>Ongoing cruise</a>\n» Developer: <a href=https://t.me/Ss_GodX</a></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Yato (@Ss_GodX) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
-ABOUT_TXT = """<b>
+ABOUT_TXT = """
 ›› ᴏᴡɴᴇʀ: <a href='https://t.me/FlyTonOwner'>𝐅𝐥𝐲𝐓𝐨𝐧 𝐎𝐰𝐧𝐞𝐫</a>
 ›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
