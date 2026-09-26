@@ -30,26 +30,19 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 START_PIC = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
 START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
 # Messages
-START_MSG = os.environ.get("START_MESSAGE", "<b>ʜᴇʟʟᴏ {message.from_user.mention}! 
-
-ɪ ᴀᴍ ᴀ ʜɪɢʜ-ꜱᴘᴇᴇᴅ, ꜱᴇᴄᴜʀᴇ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋꜱ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ. ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ'ꜱ ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴍʏ ᴛᴏᴘ ᴘʀɪᴏʀɪᴛʏ.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Ss_GodX'>Ss_GodX</a></blockquote></b>")
-HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/Ss_GodX>Ss_GodX</a>\n» Our Community: <a href=https://t.me/Ss_GodX Network</a>\n» Anime Channel: <a href=https://t.me/animes_cruise>Anime Cruise</a>\n» Ongoing Anime: <a href=https://t.me/flyton_anime>Ongoing cruise</a>\n» Developer: <a href=https://t.me/Ss_GodX</a></b>")
+START_MSG = os.environ.get("START_MESSAGE", "<b>ɪ ᴀᴍ ᴀ ʜɪɢʜ-ꜱᴘᴇᴇᴅ, ꜱᴇᴄᴜʀᴇ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋꜱ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ. ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ'ꜱ ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴍʏ ᴛᴏᴘ ᴘʀɪᴏʀɪᴛʏ.\n\n<blockquote>‣ ᴍᴀɪɴᴛᴀɪɴᴇᴅ ʙʏ : <a href='https://t.me/Ss_GodX'>Ss_GodX</a></blockquote></b>")
+HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/FlyTonOwner>𝐅𝐥𝐲𝐓𝐨𝐧 𝐎𝐰𝐧𝐞𝐫</a>\n» Our Community: <a href=https://t.me/Ss_GodX Network</a>\n» Anime Channel: <a href=https://t.me/animes_cruise>Anime Cruise</a>\n» Ongoing Anime: <a href=https://t.me/flyton_anime>Ongoing cruise</a>\n» Developer: <a href=https://t.me/Ss_GodX</a></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Yato (@Ss_GodX) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
-ABOUT_TXT = """<b>›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/https://t.me/Ss_GodX'>ᴏᴛᴀᴋᴜғʟɪx</a>
+ABOUT_TXT = """
 <blockquote expandable>›› ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Ss_GodX'>Cʟɪᴄᴋ ʜᴇʀᴇ</a>
-›› ᴏᴡɴᴇʀ: <a href='https://t.me/flyton_anime'>@Ss_GodX</a>
+›› ᴏᴡɴᴇʀ: <a href='https://t.me/FlyTonOwner'>𝐅𝐥𝐲𝐓𝐨𝐧 𝐎𝐰𝐧𝐞𝐫</a>
 ›› ʟᴀɴɢᴜᴀɢᴇ: <a href='https://docs.python.org/3/'>Pʏᴛʜᴏɴ 3</a>
 ›› ʟɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ ᴠ2</a>
 ›› ᴅᴀᴛᴀʙᴀsᴇ: <a href='https://www.mongodb.com/docs/'>Mᴏɴɢᴏ ᴅʙ</a>
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Ss_GodX</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
-CHANNELS_TXT = """<b>›› ᴀɴɪᴍᴇ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/flyton_anime'>ᴀɴɪᴍᴇ ᴄʀᴜɪsᴇ</a>
-<blockquote expandable>›› ᴍᴏᴠɪᴇs: <a href='https://t.me/flyton_movie'>ᴍᴏᴠɪᴇғʟɪx sᴘᴏᴛ</a>
-›› ᴡᴇʙsᴇʀɪᴇs: <a href='https://t.me/Ss_GodX'>ᴡᴇʙsᴇʀɪᴇs ғʟɪx</a>
-›› ᴀᴅᴜʟᴛ ᴄʜᴀɴɴᴇʟs: <a href='https://t.me/Ss_GodX'>ᴄᴏʀɴʜᴜʙ</a>
-›› ᴍᴀɴʜᴡᴀ ᴄʜᴀɴɴᴇʟ: <a href='https://t.me/Ss_GodX'>ᴘᴏʀɴʜᴡᴀ</a>
-›› ᴄᴏᴍᴍᴜɴɪᴛʏ: <a href='https://t.me/Ss_GodX'>ᴏᴛᴀᴋᴜғʟɪx</a>
+CHANNELS_TXT = """<b> 
 ›› ᴅᴇᴠᴇʟᴏᴘᴇʀ: @Ss_GodX</b></blockquote>""" # Bhosdiwalo agar developer me Yato ka username hataya to agli baar se koi repo public nhi krunga!!
 
 #--- ---- ---- --- --- --- - -- -  - - - - - - - - - - - --  - -
