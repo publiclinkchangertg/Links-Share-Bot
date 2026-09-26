@@ -30,7 +30,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "40"))
 START_PIC = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
 START_IMG = "https://telegra.ph/file/f3d3aff9ec422158feb05-d2180e3665e0ac4d32.jpg"
 # Messages
-START_MSG = os.environ.get("START_MESSAGE", "<b>ɪ ᴀᴍ ᴀ ʜɪɢʜ-ꜱᴘᴇᴇᴅ, ꜱᴇᴄᴜʀᴇ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋꜱ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ. ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ'ꜱ ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴍʏ ᴛᴏᴘ ᴘʀɪᴏʀɪᴛʏ.
+START_MSG = os.environ.get("START_MESSAGE", "ɪ ᴀᴍ ᴀ ʜɪɢʜ-ꜱᴘᴇᴇᴅ, ꜱᴇᴄᴜʀᴇ ʙᴏᴛ ᴅᴇꜱɪɢɴᴇᴅ ᴛᴏ ɢᴇɴᴇʀᴀᴛᴇ ᴘʀɪᴠᴀᴛᴇ ᴀɴᴅ ꜱʜᴀʀᴇᴀʙʟᴇ ʟɪɴᴋꜱ ꜰᴏʀ ʏᴏᴜʀ ᴘʀᴇᴍɪᴜᴍ ᴄᴏɴᴛᴇɴᴛ. ʏᴏᴜʀ ᴄʜᴀɴɴᴇʟ'ꜱ ᴘʀɪᴠᴀᴄʏ ɪꜱ ᴍʏ ᴛᴏᴘ ᴘʀɪᴏʀɪᴛʏ."
 HELP = os.environ.get("HELP_MESSAGE", "<b><blockquote expandable>» Creator: <a href=https://t.me/FlyTonOwner>𝐅𝐥𝐲𝐓𝐨𝐧 𝐎𝐰𝐧𝐞𝐫</a>\n» Our Community: <a href=https://t.me/Ss_GodX Network</a>\n» Anime Channel: <a href=https://t.me/animes_cruise>Anime Cruise</a>\n» Ongoing Anime: <a href=https://t.me/flyton_anime>Ongoing cruise</a>\n» Developer: <a href=https://t.me/Ss_GodX</a></b>")
 ABOUT = os.environ.get("ABOUT_MESSAGE", "<b><blockquote expandable>This bot is developed by Yato (@Ss_GodX) to securely share Telegram channel links with temporary invite links, protecting your channels from copyright issues.</b>")
 
