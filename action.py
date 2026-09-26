@@ -8,11 +8,10 @@ async def typing_action_status(bot, message):
         # एनीमेशन चालू करेगा
         await bot.send_chat_action(message.chat.id, enums.ChatAction.TYPING)
         
-        # 1.5 सेकंड का ब्रेक लेगा ताकि यूज़र को एनीमेशन दिखे
-        await asyncio.sleep(1.5) 
-    except Exception as e:
-        print(f"Chat Action Error: {e}")
+        # बॉट को ज़बरदस्ती 2.5 सेकंड रोकेगा ताकि तुझे स्क्रीन पर "typing..." दिखे
+        await asyncio.sleep(2.5) 
+    except Exception:
         pass
     
-    # काम खत्म होने के बाद मैसेज को तेरी बाकी फाइल्स के पास भेज देगा
+    # इसके बाद मैसेज को तेरी बाकी 10 फाइल्स के पास भेज देगा
     raise ContinuePropagation
