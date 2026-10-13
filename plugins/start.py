@@ -1,4 +1,3 @@
-
 import asyncio
 import base64
 import time
@@ -134,13 +133,6 @@ async def start_command(client: Bot, message: Message):
 
             button_text = "• ʀᴇǫᴜᴇsᴛ ᴛᴏ ᴊᴏɪɴ •" if is_request_link else "• ᴊᴏɪɴ ᴄʜᴀɴɴᴇʟ •"
             button = InlineKeyboardMarkup([[InlineKeyboardButton(button_text, url=invite_link)]])
-
-            wait_msg = await message.reply_text(
-                "⏳",
-                parse_mode=ParseMode.HTML
-            )
-            
-            await wait_msg.delete()
             
             await message.reply_text(
                 "<b><blockquote expandable>ʜᴇʀᴇ ɪs ʏᴏᴜʀ ʟɪɴᴋ! ᴄʟɪᴄᴋ ʙᴇʟᴏᴡ ᴛᴏ ᴘʀᴏᴄᴇᴇᴅ</b>",
@@ -172,11 +164,6 @@ async def start_command(client: Bot, message: Message):
                 [InlineKeyboardButton("• Close •", callback_data="close")]
             ]
         )
-        
-        # Show waiting emoji and instantly delete it
-        wait_msg = await message.reply_text("⏳")
-        await asyncio.sleep(0.1)
-        await wait_msg.delete()
         
         try:
             await message.reply_photo(
